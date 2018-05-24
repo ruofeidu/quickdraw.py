@@ -14,7 +14,7 @@ console.log('Start');
 for (var i in categories) {
 	var cate = categories[i];
 	var cnt = cate_counts[i];
-	quickDraw.import(cate, cnt);
+	quickDraw.import(cate, cnt, 128);
 }
 
 function exportJson() {

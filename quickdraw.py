@@ -24,7 +24,7 @@ if not os.path.exists('output'):
 for cid, cate in enumerate(categories):
     if not os.path.exists('output/' + cate):
         os.makedirs('output/' + cate)
-    data = json.load(open('json/%s.json' % cate))
+    data = json.load(open('json128/%s.json' % cate))
     size = data['input']
     w = int(size ** 0.5)
     mat = np.zeros((w, w, 1), np.uint8)
