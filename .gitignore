@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 *.png
+*.zip
+*.7z
 
 # C extensions
 *.so
@@ -103,3 +105,8 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/quickdraw.py.iml
+/.idea/vcs.xml
+/.idea/workspace.xml
