@@ -1,5 +1,5 @@
 # quickdraw.py
-A python script to output quickdraw.js datasets to png images.
+A simple python script to dump the datasets from [QuickDraw](https://github.com/googlecreativelab/quickdraw-dataset) to the disk.
 
 ## Getting started
 First, install `node.js` with `npm`.
