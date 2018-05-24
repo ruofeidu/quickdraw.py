@@ -1,15 +1,11 @@
 var quickDraw = require('quickdraw.js');
-//var set = quickDraw.set(100, ['car', 'airplane', 'bicycle']);
-//cars = quickDraw.import('car', 100);
 
 const categories = ['airplane', 'apple', 'banana', 'basket', 'bee', 'bench', 'bicycle', 'bus', 'butterfly', 'cat', 'chair',
-	'cloud', 'cow', 'cup', 'dog', 'duck', 'house', 'moon', 'pig', 'rabbit', 'sheep', 'streetlight',
-	'sun', 'table', 'tree', 'duck', 'umbrella'];
+              'cloud', 'cow', 'cup', 'dog', 'duck', 'horse', 'house', 'moon', 'pig', 'rabbit', 'sheep', 'streetlight',
+              'sun', 'table', 'tree', 'truck', 'umbrella'];
 
 var cate_counts = [490, 125, 49, 73, 218, 264, 46, 108, 168, 137, 500, 51, 175, 62, 230, 92, 479, 234, 44, 168, 168, 170,
-	69, 139, 692, 687, 79, 19];
-
-console.log('Start');
+                69, 139, 692, 687, 79, 19];
 
 for (var i in categories) {
 	var cate = categories[i];
@@ -33,4 +29,4 @@ function exportJson() {
 	}
 }
 
-setTimeout(exportJson, 20000);
+setTimeout(exportJson, 60000);

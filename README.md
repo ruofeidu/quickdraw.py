@@ -24,3 +24,11 @@ If you don't have opencv and numpy
 pip install opencv-contrib-python
 pip install numpy
 ```
+
+## Author
+Ruofei Du (http://www.duruofei.com)
+
+
+## License
+CC0
+Free software, yeah!
